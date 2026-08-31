@@ -23,6 +23,7 @@ class AuthController extends Controller
             'phone' => $data['phone'] ?? null,
             'email' => $data['email'] ?? null,
             'password' => $data['password'],
+            'status' => 'active',
         ]);
 
         if ($user->role === 'professional') {
