@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Design tokens shared with mobile/ — see docs/design-tokens.md. Keep in sync. */
+@theme {
+  --color-primary: #16a34a;
+  --color-primary-dark: #15803d;
+  --color-deep-green: #166534;
+
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+
+  --color-border: #e2e8f0;
+
+  --color-warning: #f59e0b;
+  --color-error: #dc2626;
+  --color-info: #2563eb;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
